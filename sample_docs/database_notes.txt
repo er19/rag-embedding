@@ -1,0 +1,11 @@
+Database Design and SQL
+
+Relational databases organize data into tables with rows and columns. Each table represents an entity, and relationships between tables are established through foreign keys.
+
+SQL (Structured Query Language) is used to interact with relational databases. The main operations are SELECT for querying data, INSERT for adding new records, UPDATE for modifying existing records, and DELETE for removing records.
+
+Normalization is the process of organizing data to minimize redundancy. The main normal forms are First Normal Form (1NF), Second Normal Form (2NF), and Third Normal Form (3NF). Each successive normal form builds on the previous one.
+
+Indexing improves query performance by creating data structures that allow faster lookups. Common index types include B-tree indexes, hash indexes, and full-text indexes. However, indexes come with a storage cost and can slow down write operations.
+
+NoSQL databases provide alternatives to relational databases for specific use cases. Document stores like MongoDB, key-value stores like Redis, column-family stores like Cassandra, and graph databases like Neo4j each have their strengths.
